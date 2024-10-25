@@ -1,0 +1,2 @@
+# UstudyHometask
+Ibraymov Alpamis
