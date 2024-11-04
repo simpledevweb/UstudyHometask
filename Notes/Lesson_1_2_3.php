@@ -5,5 +5,5 @@
 // 4 - Github
 // 5 - Conditional If Else
 // 6 - Function & Array
-// 7 - 
+// 7 - Array methods
 
