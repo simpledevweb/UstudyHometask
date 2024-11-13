@@ -27,11 +27,11 @@ $text = "Example text 1 2 3.";
 
 if(file_exists("files/task1.txt")){
 
-    $file = fopen("files/task1.txt", "w");
+    $file = fopen("files/task1.txt", "a");
     fwrite($file, "\n" . $text);
     fclose($file);
 
-    echo "File is created and written text";
+    echo "Text is written in end of file.";
 }else{
 
     if (!is_dir('files')) {
@@ -40,7 +40,7 @@ if(file_exists("files/task1.txt")){
 
     file_put_contents("files/task1.txt", $text);
 
-    echo "Text is written in end of file.";
+    echo "File is created and written text";
 }
 
 // 3
